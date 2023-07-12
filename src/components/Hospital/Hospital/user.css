@@ -1,0 +1,289 @@
+
+/* login */
+body{
+    
+    background-image: url(https://cdn.wallpapersafari.com/42/4/FCjrNk.jpg);
+    
+}
+.box{
+    text-align: center;
+    margin-top: 120px;
+    background-image: linear-gradient(to top,rgb(88, 92, 89),rgb(195, 209, 230));
+
+    height: 350px;
+    margin-left: 800px;
+    margin-right: 50px;
+    margin-top:-530px;
+    padding-top: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 7px 4px;
+    /* display:inline-flex; */
+    
+    
+}
+
+
+
+#inputa{
+    height: 40px;
+    width: 250px;
+    
+    border-radius: 15px;
+    background-color:rgb(241, 238, 238);
+    color: rgb(19, 18, 18); 
+    font-size:large;
+    margin-top: 20px;
+
+}
+#log{
+   margin-top: 50px;
+  font-weight: bolder;
+    color: antiquewhite;
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#sig{
+    margin-left: 50px;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+
+.bth:hover{
+ 
+    text-decoration-style: wavy;
+    transition: color 0.5s ease-in;
+
+    
+}
+
+
+
+
+.loghed{
+    
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-shadow: 4px 3px 4px black;
+    color: rgb(32, 121, 238);
+    letter-spacing: 5px;
+    font-weight:900;
+} 
+
+button:hover{
+    background-color: rgb(22, 18, 18);
+    color: #131413;
+    text-decoration-style: wavy;
+    transition: color 0.5s ease-in;
+
+}
+.ina{
+    height: 40px;
+    width: 250px;
+    margin-top: 40px;
+    
+    border-radius: 15px;
+    background-color:rgb(241, 238, 238);
+    color: rgb(19, 18, 18);
+    font-size:large;
+
+
+}
+#log:hover{
+    color: rgb(26, 25, 25);
+    color: #111110;
+    text-decoration-style: wavy;
+    transition: color 0.5s ease-in;
+    background-color: blue;
+
+}
+
+/* alldep*/
+
+
+#dropdown-basic{
+margin-top: 80px;
+margin-left: 30px;
+}
+
+
+.drmenu{
+    margin-left: 30px;
+    text-align:start;
+    margin-right: 60px;
+}
+
+
+/* all employees */
+
+.carditems{
+    width:500px;
+
+}
+
+.raw1{
+    display: flex;
+}
+ 
+.allcard{
+  display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  
+    
+
+}
+.dhcard{
+  
+  width: 400px;
+  height:600px;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  margin-top: 50px;
+  
+}
+
+/* dphed */
+.dhdet{
+  margin-left: 100px;
+  
+  
+}
+
+/* .dhcard Footer{ */
+  /* color: blue; */
+  /* margin-left: 500px; */
+/* } */
+
+
+.cardimg {
+    width: 100%;
+    height: 300px;
+}
+.cardcont{
+    text-align: center;
+}
+.allcard h1{
+    text-align: center  ;
+}
+
+.allcard button{
+  background-color: rgb(18, 116, 119);
+  width: 60px;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  height: 30px;
+  font-weight: bolder;
+  margin-left: 150px;
+}
+.allcard button:hover{
+    background-color:rgb(153, 204, 206); ;
+    color: black;
+}
+/* .my-toast {
+    background-color: #bb8c7e;
+    color: #0c0c0c;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .my-toast-error {
+    background-color: #d4cdcc31;
+  }
+  
+  .my-toast-success {
+    background-color: #1d2358;
+  }
+  .my-progress-bar {
+    background-color: #cffc2c;
+    height: 5px;
+  } */
+
+  .edemp{
+    background-color: rgb(18, 116, 119);
+    width: 60px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+    margin-left: px;
+  }
+  .dlemp{
+    background-color: rgb(207, 132, 18);
+    width: 60px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+    margin-left: 190px;
+
+  }
+  .edemp:hover{
+    background-color: rgb(118, 196, 199);
+    
+  }
+
+  .dlemp:hover{
+    background-color: rgb(175, 159, 104);
+    
+  }
+
+  .detemp{
+
+    background-color: rgb(18, 116, 119);
+    width: 60px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+    margin-left: 150px;
+
+  }
+  .detemp:hover{
+    background-color: rgb(118, 196, 199);
+    
+  }
+
+
+  .alldepd{
+    height: 20px;
+    width: 402px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 30px;
+
+  }
+  
+  .carditemsd{
+    /* width: 0px; */
+    /* height: 20px; */
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+  
+  }
+  .dpimg{
+    width: 400px;
+    height: 300px;
+  }
+
+  .ddddd{
+    display: flex;
+  }
+  .cddcd{
+    margin-top: -7px;
+    margin-left: 5px;
+    font-weight: 500;
+  }

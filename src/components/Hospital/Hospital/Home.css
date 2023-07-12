@@ -1,0 +1,71 @@
+
+
+ .phhed{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 5px 4px black;
+    /* padding-top: 15px; */
+    margin-left: 20px;
+
+ }.navbar{
+   background-image: linear-gradient(to right, rgb(201, 179, 179) , rgb(59, 156, 173));
+   /* position: fixed; */
+   height: 90px;
+   padding-top: 20px;
+
+ }
+
+ .phul{
+    list-style: none;
+    display: flex;
+    
+    text-decoration-style: none;
+    text-decoration: none;
+     text-decoration: none;
+    margin-left:650px;
+    margin-top: -40px;
+ }
+
+ /* permhome */
+ .linav{
+    font-weight: bolder;
+    color: rgb(245, 247, 240);
+    background-color: rgb(51, 49, 49);
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    margin-left: 30px;
+    border-style: none;
+
+ }
+ .linav:hover{
+    color: rgb(17, 16, 16);
+    color: #eef1db;
+    text-decoration-style: wavy;
+    transition: color 0.5s ease-in;
+    background-color:rgb(114, 117, 115);
+    box-shadow: 5px 7px 4px black;
+
+}
+
+#logout{
+    background-color:rgb(192, 33, 4);
+    width: 80px;
+
+}
+
+#logout:hover{
+    background-color: rgba(66, 64, 64, 0.644);
+}
+
+/* Home.js */
+
+.hos{
+   text-align: center;
+   margin-top: -400px;
+   color: seagreen;
+   font-weight:1000;
+   font-size: 60px;
+   text-shadow: 2px 3px 4px black;
+}
+
